@@ -17,7 +17,7 @@ module Radimotive
 
     def self.migrate(slug, model_name)
 
-      page = ::Radiant::Page.find_by_slug(slug)
+      page = Radimotive::Radiant::Page.find_by_slug(slug)
       if page
         ct = Locomotive::ContentType.where(:name => model_name).first
         if ct

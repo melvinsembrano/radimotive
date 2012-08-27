@@ -28,8 +28,8 @@ Gem::Specification.new do |s|
     "lib/radimotive/migrator.rb",
     "lib/radimotive/radiant_page.rb",
     "lib/radimotive/railtie.rb",
+    "lib/tasks/radimotive.rake",
     "radimotive.gemspec",
-    "tasks/radimotive.rake",
     "test/helper.rb",
     "test/test_radimotive.rb"
   ]
