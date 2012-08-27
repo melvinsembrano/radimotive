@@ -1,5 +1,5 @@
 require 'action_view/helpers/text_helper'
-require 'radiant_page'
+require 'radimotive/radiant_page'
 
 module Radimotive
   class Migrator
